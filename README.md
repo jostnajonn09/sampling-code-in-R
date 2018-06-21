@@ -1,0 +1,2 @@
+# sampling-code-in-R
+THE CODE USED FOR DIFFERENT TYPES OF SAMPLING 
