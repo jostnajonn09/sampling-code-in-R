@@ -1,0 +1,14 @@
+ set.seed(100)
+#using sample command from base package
+ trainindices= sample(1:nrow(DATA), 0.7*nrow(DATA))
+ # generate the train data set
+ train1 = DATA[trainindices,]
+ test2 = DATA[-trainindices,]
+
+
+
+
+#using sample.split command from package caTools
+indices <- sample.split(DATA$COLUMN_NAME, SplitRatio = 0.7)
+train <- DATA[indices,]
+test <- DATA[!(indices),]
