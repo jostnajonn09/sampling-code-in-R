@@ -26,8 +26,17 @@ Example - Say you have data with 70% Y values and 305 N Values. Sample.split wil
 
 You can also try createDataPartition from caret package. Its document states: By default, createDataPartition does a stratified random split of the data.
 
-ref
+#useful links
 
 https://link.springer.com/chapter/10.1007/978-3-642-23808-6_10
 
 https://stackoverflow.com/questions/20776887/stratified-splitting-the-data
+
+#video links
+https://www.youtube.com/watch?v=uuKGDJPogUI
+
+https://www.youtube.com/watch?v=WLPm-X4isvk
+
+
+
+
